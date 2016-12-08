@@ -8,5 +8,35 @@ Il s'énonce de la façon suivante:
 
 On souhaite fabriquer une boîte de forme parallélépipédique (un pavé droit) aux dimensions entières (en cm) ayant un volume minimal donné (ex: 1992 cm³) de sorte que la surface de cette  boîte en contact avec l'extérieur soit la plus petite possible (il s'agit de la somme des surfaces des 6 faces de la boîte). Donner les dimensions entières de cette boîte permettant d'obtenir un volume au moins égal au volume donné mais dont la surface des faces est la plus petite possible.
 
-2)tips pour que vous ne soyez pas perdus
+2)Les resultats:
+
+| Le Volume               |    La surface |
+|-------------------------|----------------------------------------------------|
+| 1                       |     6         |
+| 1992                    |     958       |
+| 3001                    |     1272      |
+| 5001                    |     1782      |
+| 7001                    |     2222      |
+| 10001                   |     2804      |
+| 15001                   |     3696      |
+| 20001                   |     4454      |
+| 30001                   |     5842      |
+| 40001                   |     7048      |
+| 50001                   |     8182      |
+| 100001                  |     13002     |
+| 500001                  |     37942     |
+| 1000001                 |     60196     |
+| 2000001                 |     95254     |
+| 5000001                 |     175444    |
+| 10000001                |     278784    |
+| 50000001                |     814912    |
+| 100000001               |     1293152   |
+| 1000000001              |     6001982   |
+| 10000000001             | (x:2199, y:2138, z:2127    size:27852522) |
+| 100000000001            | (x:4679, y:4629, z:4617    size:129268254) |
+| 1000000000001           | (x:10116, y:9944, z:9941  size:600019928) |
+| 10000000000001          | (x:21710, y:21476, z:21448   size:2784994576) |
+| 100000000000001         | (x:46560, y:46347, z:46341  size:12926639214) |
+| 1000000000000001        | (x:100360, y:99876, z:99765    size:60000199800) |
+| 10000000000000001       | Segfault  |
 
