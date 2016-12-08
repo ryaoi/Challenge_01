@@ -41,13 +41,13 @@ On souhaite fabriquer une boîte de forme parallélépipédique (un pavé droit)
 | 10000000000000001       | (x:215856, y:215255, x:215220   size:278495585400)|
 | 100000000000000001      | (x:464610, y:464033, x:463834   size:1292661138784)|
 | 1000000000000000001     | (x:1001155, y:999444, x:999402 size:6000001999236)|
-| 18446744073709551615    | aucune idee |
+| 18446744073709551615    | A vous de trouver |
 
 ![Alt text](https://github.com/ryaoi/Challenge_01/blob/master/example.png "Optional Title")
 
 A partir de 10000000000000001, mon programme n'est pas comme celle ci donc vous allez pas obtenir une meme valeur et je pense meme que ca va segfault. C'est a cause de ma fonction find_xyz qui commence avec 1 alors changez cette valeur si vous voulez trouver des valeurs pour grand que 10000000000000001.
 
-Mais bon... a partir de 10000000000000001, je ne peux pas vous dire si le resultat est bon.
+Mais bon... a partir de 10000000000000001, je ne peux pas vous dire si le resultat est bon. et aussi n'oubliez pas de utilsier des unsigned int128. Sinon vous allez avoir du mal pour le dernier.
 et pour le dernier qui est ULLONG_MAX bah je pense que ca va prendre plus que dix minutes pour resoudre...
 
 3) Les tips:
