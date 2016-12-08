@@ -51,3 +51,6 @@ On retrouve un segfault car un de mes variables atteint la taille max de unsigne
 -Minimaliser votre calcul. C'est a dire, refait pas des calculs que vous avez deja fait, stock la valeur dans une variable.
 -Utiliser un structure (cela vous permet a simplifier des taches)
 -Si vous utilisez malloc bah c'est important de le free. (fuite de memoire  = pas de job)
+
+Commentaire:
+Peut optimiser plus mais pour l'instant je vais reflechir comment gerer les valeurs au dessus de unsinged long long int.
