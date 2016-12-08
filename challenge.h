@@ -16,9 +16,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
-#include <math.h>
-
-#define         DIF        5
 
 typedef	struct		s_cubic
 {
@@ -41,4 +38,4 @@ t_cubic					*init(unsigned long long int triple, unsigned long long int average,
 unsigned long long int  ft_select_min(unsigned long long int size, unsigned long long int triple, unsigned long long int average);
 unsigned long long int  ft_select_max(unsigned long long int size, unsigned long long int triple, unsigned long long int average);
 
-#endif /* challenge_h */
+#endif
