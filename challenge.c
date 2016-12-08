@@ -91,10 +91,7 @@ unsigned long long int  solve(t_cubic **cube, unsigned long long int triple)
                 {
                     found = ((2 * ((*cube)->x) * ((*cube)->y)) + (2 * ((*cube)->x) * ((*cube)->z)) + (2 * ((*cube)->y) * ((*cube)->z)));
                     if ((*cube)->result > found && found != 0)
-                    {
                         (*cube)->result = found;
-                        printf("x:%llu, y:%llu, z:%llu\t size:%llu\n", (*cube)->x, (*cube)->y, (*cube)->z, (*cube)->result);
-                    }
                 }
                 ((*cube)->z)--;
             }
