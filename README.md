@@ -8,7 +8,7 @@ Il s'énonce de la façon suivante:
 
 On souhaite fabriquer une boîte de forme parallélépipédique (un pavé droit) aux dimensions entières (en cm) ayant un volume minimal donné (ex: 1992 cm³) de sorte que la surface de cette  boîte en contact avec l'extérieur soit la plus petite possible (il s'agit de la somme des surfaces des 6 faces de la boîte). Donner les dimensions entières de cette boîte permettant d'obtenir un volume au moins égal au volume donné mais dont la surface des faces est la plus petite possible.
 
-2)Les resultats:
+2) Les resultats:
 
 | Le Volume               |    La surface |
 |-------------------------|----------------------------------------------------|
@@ -44,13 +44,13 @@ On souhaite fabriquer une boîte de forme parallélépipédique (un pavé droit)
 
 On retrouve un segfault car un de mes variables atteint la taille max de unsigned long long int... 
 
-3)Les tips :
--Utilisation de baktrack. (sinon... euh votre programme ca va etre lent mais tres lent)
--Comprendre quelle composition de x * y * z comporte la surface la plus petite. (Peut etre un x^3 ;) )
--Faut pas partir faire une boucle dans une boucle et aussi dans un boucle qui fait sa recherche de 1 a 10Million pour chaque boucle. (Par example si on a une boucle qui fait 6 loop alors pour le cas de boucle dans une boucle et dans une autre boucle, cela fait 6^3 = 216loop)
--Minimaliser votre calcul. C'est a dire, refait pas des calculs que vous avez deja fait, stock la valeur dans une variable.
--Utiliser un structure (cela vous permet a simplifier des taches)
--Si vous utilisez malloc bah c'est important de le free. (fuite de memoire  = pas de job)
+3) Les tips:
+- Utilisation de baktrack. (sinon... euh votre programme ca va etre lent mais tres lent)
+- Comprendre quelle composition de x * y * z comporte la surface la plus petite. (Peut etre un x^3 ;) )
+- Faut pas partir faire une boucle dans une boucle et aussi dans un boucle qui fait sa recherche de 1 a 10Million pour chaque boucle. (Par example si on a une boucle qui fait 6 loop alors pour le cas de boucle dans une boucle et dans une autre boucle, cela fait 6^3 = 216loop)
+- Minimaliser votre calcul. C'est a dire, refait pas des calculs que vous avez deja fait, stock la valeur dans une variable.
+- Utiliser un structure (cela vous permet a simplifier des taches)
+- Si vous utilisez malloc bah c'est important de le free. (fuite de memoire  = pas de job)
 
 **Commentaire:
 Peut optimiser plus mais pour l'instant je vais reflechir comment gerer les valeurs au dessus de unsinged long long int.**
