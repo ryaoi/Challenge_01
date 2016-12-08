@@ -59,4 +59,4 @@ et pour le dernier qui est ULLONG_MAX bah je pense que ca va prendre plus que di
 - Si vous utilisez malloc bah c'est important de le free. (fuite de memoire  = pas de job)
 
 **Commentaire:
-Peut optimiser plus mais pour l'instant je vais reflechir comment gerer les valeurs au dessus de unsinged long long int.**
+hmmm mon pc a bien chauffé.....**
