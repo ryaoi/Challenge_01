@@ -47,8 +47,10 @@ On souhaite fabriquer une boîte de forme parallélépipédique (un pavé droit)
 
 A partir de 10000000000000001, mon programme n'est pas comme celle ci donc vous allez pas obtenir une meme valeur et je pense meme que ca va segfault. C'est a cause de ma fonction find_xyz qui commence avec 1 alors changez cette valeur si vous voulez trouver des valeurs pour grand que 10000000000000001.
 
-Mais bon... a partir de 10000000000000001, je ne peux pas vous dire si le resultat est bon. et aussi n'oubliez pas de utilsier des unsigned int128. Sinon vous allez avoir du mal pour le dernier.
-et pour le dernier qui est ULLONG_MAX bah je pense que ca va prendre plus que dix minutes pour resoudre...
+*La raison pourquoi cela amene a un segfault:
+Ma fonction recursive a depasser la taille limite de stack. Il existe deux solutions. Soit cette fonction sera appliqué sur la partie heap au lieu de stack sinon je limite a une certain valeur pour que ma fonction recursive ne va pas partir trop loin.*
+
+Mais bon... a partir de 10000000000000001, je ne peux pas vous dire si le resultat est bon. et aussi n'oubliez pas de utilsier des unsigned int128. Sinon vous allez avoir du mal pour trouver le resultat de la derniere valeur.
 
 3) Les tips:
 - Utilisation de baktrack. (sinon... euh votre programme ca va etre lent mais tres lent)
