@@ -59,8 +59,8 @@ Mais bon... a partir de 10000000000000001, je ne peux pas vous dire si le result
 - Comprendre quelle composition de x * y * z comporte la surface la plus petite. (Peut etre un x^3 :+1: )
 - Faut pas partir faire une boucle dans une boucle et aussi dans un boucle qui fait sa recherche de 1 a 10Million pour chaque boucle. (Par example si on a une boucle qui fait 6 loop alors pour le cas de boucle dans une boucle et dans une autre boucle, cela fait 6^3 = 216loop)
 - Minimaliser votre calcul. C'est a dire, refait pas des calculs que vous avez deja fait, stock la valeur dans une variable.
-- Utiliser un structure (cela vous permet a simplifier des taches)
-- Si vous utilisez malloc bah c'est important de le free. (fuite de memoire  = pas de job)
+- Utiliser un structure (cela va vous permettre à simplifier des tâches)
+- Si vous utilisez des mallocs bah c'est important de les free. (fuite de memoire  = pas de job)
 
 **Commentaire:
 hmmm mon pc a bien chauffé.....**
