@@ -57,7 +57,7 @@ Si vous voulez check votre taille de stack sur Linux ou sur Mac, taper sur le te
 Mais bon... a partir de 10000000000000001, je ne peux pas vous dire si le resultat est bon. et aussi n'oubliez pas de utilsier des [unsigned int128](https://gcc.gnu.org/onlinedocs/gcc/_005f_005fint128.html). Sinon vous allez avoir du mal pour trouver le resultat de la derniere valeur.
 
 3) Les tips:
-- Utiliser des fontion recursive. (sinon... euh votre programme ca va etre lent mais tres lent)
+- Utiliser des fontions recursives. (sinon... euh votre programme ca va etre lent mais tres lent)
 - Comprendre quelle composition de x * y * z comporte la surface la plus petite. (Peut etre un x^3 :+1: )
 - Faut pas partir faire une boucle dans une boucle et aussi dans un boucle qui fait sa recherche de 1 a 10Million pour chaque boucle. (Par example si on a une boucle qui fait 6 loop alors pour le cas de boucle dans une boucle et dans une autre boucle, cela fait 6^3 = 216loop)
 - Minimaliser votre calcul. C'est a dire, refait pas des calculs que vous avez deja fait, stock la valeur dans une variable.
