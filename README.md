@@ -52,7 +52,7 @@ Ma fonction récursive a depassé la taille limite de stack. Il existe deux solu
 
 Si vous voulez check votre taille de stack sur Linux ou sur Mac, taper sur le terminal: **ulimit -s**
 
-Mais bon... a partir de 10000000000000001, je ne peux pas vous dire si le resultat est bon. et aussi n'oubliez pas de utilsier des unsigned int128. Sinon vous allez avoir du mal pour trouver le resultat de la derniere valeur.
+Mais bon... a partir de 10000000000000001, je ne peux pas vous dire si le resultat est bon. et aussi n'oubliez pas de utilsier des [unsigned int128](https://gcc.gnu.org/onlinedocs/gcc/_005f_005fint128.html). Sinon vous allez avoir du mal pour trouver le resultat de la derniere valeur.
 
 3) Les tips:
 - Utilisation de baktrack. (sinon... euh votre programme ca va etre lent mais tres lent)
