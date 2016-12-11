@@ -23,7 +23,7 @@ unsigned long long int  ft_select_min(unsigned long long int size, unsigned long
     else if (size <= 100000000001)
         return ((triple / 3) - (average / 20));
     else if (size <= 1000000000001)
-        return ((triple / 3) - (average / 30));
+        return ((triple / 3) - (average / 70));
     else if (size <= 10000000000001)
         return ((triple / 3) - (average / 125));
     else if (size <= 1000000000000001)
@@ -78,7 +78,7 @@ unsigned long long int  ft_select_max(unsigned long long int size, unsigned long
     else if (size <= 100000000001)
         return ((triple / 3) + (average / 20));
     else if (size <= 1000000000001)
-        return ((triple / 3) + (average / 30));
+        return ((triple / 3) + (average / 70));
     else if (size <= 10000000000001)
         return ((triple / 3) + (average / 125));
     else if (size <= 1000000000000001)
